@@ -8,6 +8,7 @@
 - **リンター** : `eslint`
 - **フォーマッター** : `prettier`
 - **グラフライブラリ** : `Rechart.js`
+- **ホスティング＆CI/CD** : `Cloudflare Pages`
 
 ## 内容
 
