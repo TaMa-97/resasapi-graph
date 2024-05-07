@@ -7,8 +7,8 @@ async function errorHandling(context) {
 }
 
 async function handleRequest({ next, request }) {
-  const BASIC_USER = process.env.BASIC_USER;
-  const BASIC_PASS = process.env.BASIC_PASS;
+  const BASIC_USER = BASIC_USER;
+  const BASIC_PASS = BASIC_PASS;
 
   if (request.headers.has('Authorization')) {
     const Authorization = request.headers.get('Authorization');
